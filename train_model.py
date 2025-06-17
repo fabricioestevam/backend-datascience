@@ -7,7 +7,7 @@ from sklearn.pipeline import Pipeline
 import pickle
 
 # Configuração do MongoDB
-MONGO_URI = "mongodb://localhost:27017/"
+MONGO_URI = "mongodb+srv://feestevamnascimentojr:0qb7tcgrGgi7wgy3@cluster0.lgnffp1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 client = MongoClient(MONGO_URI)
 db = client['odontolegal']
 colecao = db['dados']
