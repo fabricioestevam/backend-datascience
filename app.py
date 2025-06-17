@@ -196,4 +196,4 @@ if __name__ == '__main__':
         colecao.insert_many(dados_iniciais)
         print(f"Inseridos {len(dados_iniciais)} casos no banco de dados.")
     
-    app.run(debug=True)
+    app.run(debug=True, port=80)
